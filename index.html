@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de projeto</title>
+</head>
+
+<body>
+    <h1 id="inicio">HTML Developer</h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#atributos">Atributos das Tags</a></li>
+        <li><a href="#texto">Tags de texto</a></li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#consideracoes">Considerações finais</a></li>
+    </ul>
+    <hr>
+
+    <h2 id="estrutura">Estrutura básica do HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        A estrutura básica do <abbr title="HyperText Markup Language">HTML</abbr> é formada pelas tags html, head, title
+        e body.
+    </p>
+    <h3>Tag &lt;html&gt;</h3>
+    <p>
+        <strong>&lt;html&gt;</strong> é a tag que vai
+        <mark>indicar que essa é uma página escrita em <abbr title="HyperText Markup Language">HTML</abbr></mark>,
+        dentro dessa tag serão adicionadas todas as outras tags necessárias.
+    </p>
+    <h3>Tag &lt;head&gt;</h3>
+    <p>
+        <strong>&lt;head&gt;</strong> é a primeira tag adicionada dentro da tag html, dentro dela serão
+        <mark>adicionadas tags de configuração da página e também referentes ao cabeçalho da página</mark>.
+    </p>
+    <h3>Tag &lt;title&gt;</h3>
+    <p>
+        <strong>&lt;title&gt;</strong> é usada dentro da tag head, ela é usada para
+        <mark>o título da página</mark>, que será visualizado na aba do navegador.
+    </p>
+    <h3>Tag &lt;body&gt;</h3>
+    <p>
+        <strong>&lt;body&gt;</strong> é utilizada após a tag &lt;head&gt;; dentro dessa tag serão
+        <mark>adicionadas todas as tags para construção do corpo da página</mark>,
+        como tags para texto, imagem, entre outras.
+    </p>
+    <p>
+        <i><u>Todas essas tags precisam ser abertas e fechadas ao final, para seu correto funcionamento.</u></i>
+    </p>
+    <p>
+        Exemplo de abertura e fechamento da tag: &lt;body&gt; <sup>conteúdo da tag aqui</sup> &lt;/body&gt;
+    </p>
+    <p>
+        Obs.: Nem todas as tags precisam de uma tag de fechamento, por exemplo a tag &lt;input&gt;
+    </p>
+    <hr>
+
+    <h2 id="atributos">Atributos das Tags</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Alguns atributos podem ser usados alguns atributos nas tags para mudar seu comportamento
+    </p>
+    <h3>Exemplos de atributos</h3>
+    <p>
+        <i>Tag: </i><strong>&lt;input type="text"&gt;</strong><br>
+        <i>Resultado: </i><input type="text">
+    </p>
+    <p>
+        <i>Tag: </i><strong>&lt;input type="number"&gt;</strong><br>
+        <i>Resultado: </i><input type="number">
+    </p>
+    <p>
+        <i>Tag: </i><strong>&lt;input type="color"&gt;</strong><br>
+        <i>Resultado: </i><input type="color">
+    </p>
+    <blockquote>Note que diferentes atributos mudam o comportamento da mesma tag</blockquote>
+    <hr>
+
+    <h2 id="texto">Tags de texto</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Os textos são muito utilizados em <abbr title="HyperText Markup Language">HTML</abbr>,
+        veja alguns exemplos de tags utilizadas para os textos.
+    </p>
+    <h3>Tags de títulos</h3>
+    <p>
+        <i>Tag: </i><strong>&lt;h1&gt;Título 1&lt;/h1&gt;</strong><br>
+        <i>Resultado: <h1>Título 1</h1>
+    </p>
+    <p>
+        <i>Tag: </i><strong>&lt;h2&gt;Título 2&lt;/h2&gt;</strong><br>
+        <i>Resultado: </i>
+    <h2>Título 2</h2>
+    </p>
+    <p>
+        <i>Tag: </i><strong>&lt;h3&gt;Título 3&lt;/h3&gt;</strong><br>
+        <i>Resultado: </i>
+    <h3>Título 3</h3>
+    </p>
+    <p>
+        <i>Tag: </i><strong>&lt;h4&gt;Título 4&lt;/h4&gt;</strong><br>
+        <i>Resultado: </i>
+    <h4>Título 4</h4>
+    </p>
+    <p>
+        <i>Tag: </i><strong>&lt;h5&gt;Título 5&lt;/h5&gt;</strong><br>
+        <i>Resultado: </i>
+    <h5>Título 5</h5>
+    </p>
+    <p>
+        <i>Tag: </i><strong>&lt;h6&gt;Título 6&lt;/h6&gt;</strong><br>
+        <i>Resultado: </i>
+    <h6>Título 6</h6>
+    </p>
+    <h3>Outras tags de texto</h3>
+    <h4>Parágrafo</h4>
+    <p>
+        <i>Tag de parágrafo: </i><strong>&lt;p&gt;parágrafo 1&lt;/p&gt;</strong>
+        <strong>&lt;p&gt;parágrafo 2&lt;/p&gt;</strong><br>
+        <i>Resultado: </i>
+    <p>parágrafo 1</p>
+    <p>parágrafo 2</p>
+    </p>
+    <h4>Sup e Sub</h4>
+    <p>
+        <i>Tag de sup: </i><strong>&lt;p&gt; 10&lt;sup&gt;2&lt;/sup&gt; &lt;/p</strong><br>
+        <i>Resultado: </i>
+    <p>10<sup>2</sup></p>
+    </p>
+    <p>
+        <i>Tag de sub: </i><strong>&lt;p&gt; H&lt;sub&gt;2&lt;/sub&gt;O &lt;/p</strong><br>
+        <i>Resultado: </i>
+    <p>H<sub>2</sub>O</p>
+    </p>
+    <h4>Estilizar o texto</h4>
+    <p>
+        <i>Tag de marcação de texto: </i><strong>&lt;p&gt; Esse texto &lt;mark&gt;possui &lt;/mark&gt;
+            marcação&lt;/p&gt;</strong><br>
+        <i>Resultado: </i>
+    <p>Esse texto <mark>possui </mark>marcação</p>
+    </p>
+    <p>
+        <i>Tag sublinhar: </i><strong>&lt;p&gt; Esse texto &lt;u&gt;foi sublinhado&lt;/u&gt; &lt;/p&gt;</strong><br>
+        <i>Resultado: </i>
+    <p>Esse texto <u>foi sublinhado</u></p>
+    </p>
+    <p>
+        <i>Tag itálico: </i><strong>&lt;p&gt; Esse texto &lt;i&gt;está em itálico&lt;/i&gt; &lt;/p&gt;</strong><br>
+        <i>Resultado: </i>
+    <p>Esse texto <i>está em itálico</i></p>
+    </p>
+    <p>
+        <i>Tag negrito: </i><strong>&lt;p&gt; Esse texto &lt;strong&gt;está em negrito&lt;/strong&gt;
+            &lt;/p&gt;</strong><br>
+        <i>Resultado: </i>
+    <p>Esse texto <strong>está em negrito</strong></p>
+    </p>
+    <p>
+        <i>Tag del: </i><strong>&lt;p&gt; Esse texto &lt;del&gt;foi riscado&lt;/del&gt;
+            &lt;/p&gt;</strong><br>
+        <i>Resultado: </i>
+    <p>Esse texto <del>foi riscado</del></p>
+    </p>
+    <p>
+        <i>Tag small: </i><strong>&lt;p&gt; Esse texto &lt;small&gt;é menor&lt;/small&gt;
+            &lt;/p&gt;</strong><br>
+        <i>Resultado: </i>
+    <p>Esse texto <small>é menor</small></p>
+    </p>
+    <hr>
+
+    <h2 id="listas">Listas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Existem dois tipos de listas, ordenadas e não ordenadas, veja os exemplos
+    </p>
+    <h3>Lista Ordenada</h3>
+    <p>
+        <i>Tag: </i><br>
+        <strong>
+            &lt;ol&gt;<br>
+            &emsp; &lt;li&gt;Item 1&lt;/li&gt;<br>
+            &emsp; &lt;li&gt;Item 2&lt;/li&gt;<br>
+            &emsp; &lt;li&gt;Item 3&lt;/li&gt;<br>
+            &lt;/ol&gt;
+        </strong><br>
+        <i>Resultado: </i>
+    <p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    </p>
+    </p>
+    <h3>Lista Não Ordenada</h3>
+    <p>
+        <i>Tag: </i><br>
+        <strong>
+            &lt;ul&gt;<br>
+            &emsp; &lt;li&gt;Item 1&lt;/li&gt;<br>
+            &emsp; &lt;li&gt;Item 2&lt;/li&gt;<br>
+            &emsp; &lt;li&gt;Item 3&lt;/li&gt;<br>
+            &lt;/ul&gt;
+        </strong><br>
+        <i>Resultado: </i>
+    <p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    </p>
+    </p>
+    <hr>
+
+    <h2 id="links">Links</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Links são necessários para fazer navegação na página e também direcionar para uma página de outro site
+    </p>
+    <p>
+        <i>Tag: </i><strong>&lt;p&gt; &lt;a href="https://www.w3schools.com/" target="_self"&gt;W3 Schools&lt;/a&gt;
+            &lt;/p&gt;</strong><br>
+        <i>Resultado: </i>
+    <p><a href="https://www.w3schools.com/" target="_self">W3 Schools</a></p>
+    </p>
+    <blockquote>
+        Observe que foram usados atributos nessa tag, o primeiro atributo adiciona o link que será aberto,
+        já o segundo atributo define se o link será aberto na mesma aba ou em uma nova aba donavegador,
+        nesse caso será aberta em uma nova aba.
+    </blockquote>
+    <hr>
+
+    <h2 id="consideracoes">Considerações finais</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Aprenda mais sobre as Tags <abbr title="HyperText Markup Language">HTML</abbr>:
+        <a href="https://www.w3schools.com/tags/" target="_self">W3 Schools tags</a>
+    </p>
+    <br>
+</body>
+
+</html>
